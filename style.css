@@ -1,0 +1,356 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.link {
+    text-decoration: none;
+    color: #36c;
+}
+.link:hover {
+    text-decoration: underline;
+}
+
+small {
+    color: #54595d;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+
+.header {
+    margin: 0 20px;
+    text-align: center;
+}
+
+#title {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Linux Libertine, Georgia, Times, "Source Serif Pro", serif;
+    display: block;
+}
+
+.main {
+    height: 325px;
+    width: 546px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.logo {
+    position: relative;
+    top: 10%;
+    padding: 30px;
+}
+
+.lang1 {
+    position: absolute;
+    top: 0;
+    left: 80px;
+    margin: 5px;
+    padding: 5px 15px ;
+}
+.lang2 {
+    position: absolute;
+    top: 0;
+    right: 80px;
+    margin: 5px;
+    margin: 5px;
+    padding: 5px 15px ;
+}
+.lang3 {
+    position: absolute;
+    top: 20%;
+    left: 20px;
+    margin: 5px;
+    margin: 5px;
+    padding: 5px 15px ;
+}
+.lang4 {
+    position: absolute;
+    top: 20%;
+    right: 15px;
+    margin: 5px;
+    margin: 5px;
+    padding: 5px 15px ;
+}
+.lang5 {
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    margin: 5px;
+    margin: 5px;
+    padding: 5px 15px ;
+}
+.lang6 {
+    position: absolute;
+    top: 40%;
+    right: 5px;
+    margin: 5px;
+    margin: 5px;
+    padding: 5px 15px ;
+}
+.lang7 {
+    position: absolute;
+    top: 60%;
+    left: 30px;
+    margin: 5px;
+    margin: 5px;
+    padding: 5px 15px ;
+}
+.lang8 {
+    position: absolute;
+    top: 60%;
+    right: 20px;
+    margin: 5px;
+    margin: 5px;
+    padding: 5px 15px ;
+}
+.lang9 {
+    position: absolute;
+    top: 80%;
+    left: 80px;
+    margin: 5px;
+    margin: 5px;
+    padding: 5px 15px ;
+}
+.lang10 {
+    position: absolute;
+    top: 80%;
+    right: 60px;
+    margin: 5px;
+    margin: 5px;
+    padding: 5px 15px ; 
+}
+.lang1:hover,
+.lang2:hover,
+.lang3:hover,
+.lang4:hover,
+.lang5:hover,
+.lang6:hover,
+.lang7:hover,
+.lang8:hover,
+.lang9:hover,
+.lang10:hover {
+    background-color: #eaecf0;
+}
+
+.search-read {
+width: 545px;
+height: 100px;
+display: flex;
+position: relative;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+}
+.search-box {
+    width: 99%;
+    height: 44px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 0;
+    
+}
+.search {
+    width: 80%;
+    border-width: 1px 0 1px 1px;
+    border-radius: 2px 0 0 2px;
+    border-color: #a2a9b1;
+}
+.search:focus {
+    outline: none;
+    border-color:#36c;
+    border-width: 3px;
+
+}
+.en {
+    position: absolute;
+    top: 35%;
+    right: 17%;
+    font-size: 13px;
+    color: #54595d;
+    cursor: pointer;
+}
+.en:hover {
+    background-color: #eaecf0;
+}
+.search-icon {
+    width: 44px;
+    height: 44px;
+    background-color: #36c;
+    outline: #36c;
+    cursor: pointer;
+}
+
+
+.read-wikipedia {
+    bottom: 0;
+    display: flex;
+    position: absolute;
+    align-items: center;
+}
+.read-wikipedia button {
+    height: 40px;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid #a2a9b1;
+    
+    color: #36c;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.read-wikipedia button:active, 
+.read-wikipedia button:active  {
+    border: 2px solid #36c;
+} 
+
+.line {
+    height: 1px;
+    width: 400px;
+    position: absolute;
+    left: -80px;
+    background-color: #a2a9b1;
+    z-index: -1;
+}
+
+#break {
+    margin-top: 20px;
+    border-bottom: 1px solid #a2a9b1;
+}
+
+.footer {
+    min-height: 515px;
+    padding: 10px 40px;
+}
+#footer-items {
+    display: flex;
+    align-items: flex-start;
+    float: left;
+    padding: 15px 0;
+    font-size: 14px;
+}
+#footer-items #seperate {
+    width: 40%;
+    margin-top: 0;
+    margin: 50px;
+    height: auto;
+    
+}
+.wiki-foundation {
+    position: relative;
+    display: flex;
+    justify-items: right;   
+    margin-bottom: 10px;
+    width: 90%;
+}
+#wiki-foundation {
+    margin: 10px;
+}
+
+.download-background {
+    border-radius: 2%;
+    background-color: #eaecf03e;
+    width: 90%;
+}
+#wikipedia-w {
+    position: relative;
+    display: flex;
+    justify-items: right;   
+    margin: 5px;
+}
+#description {
+    margin: 8px;
+}
+#W {
+    position: relative;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+}
+#download {
+    display: flex;
+    position: relative;
+    justify-content: left;
+    margin: 0 50px;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+.footerlinks {
+    position: relative;
+    display: flex;
+    float: left;
+    top: 25px;
+    font-size: 14px;
+    height: 550px;
+    width: 100%;
+    
+    color: #36c;
+}
+.column1  { 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.column2  {
+    
+    display: flex;
+    flex-direction: column;
+    height:80%;
+    width: 100%;
+}
+.column3  {
+    display: flex;
+    flex-direction: column;
+    height:80%;
+    width: 100%;
+}
+.Commons,
+.Wikibooks,
+.Wikiversity,
+.Wikisource,
+.Meta-wiki,
+.Wikivoyage,
+.Wikinews,
+.Wikiquote,
+.Wikispecies,
+.Wikitionary,
+.Wikidata,
+.MediaWiki,
+.Wikifunctions {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.Commons:hover,
+.Wikibooks:hover,
+.Wikiversity:hover,
+.Wikisource:hover,
+.Meta-wiki:hover,
+.Wikivoyage:hover,
+.Wikinews:hover,
+.Wikiquote:hover,
+.Wikispecies:hover,
+.Wikitionary:hover,
+.Wikidata:hover,
+.MediaWiki:hover,
+.Wikifunctions:hover  {
+    background-color:#eaecf0;
+}
+
+
+.footer .copyrights {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+
+}
